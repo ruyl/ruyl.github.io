@@ -1,0 +1,67 @@
+body {
+    background-color: #282828;
+    font-size: larger;
+    /*alignment: right;*/
+}
+
+img {
+    width: 240px;
+    alignment: right;
+}
+
+.portrait {
+
+}
+
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 125px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #a8a8a8;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 8px;
+    alignment: left;
+}
+
+.sidebar button {
+    background-color: gray;
+    border-style: none;
+    border-radius: 50px;
+    display: block;
+    width: 120px;
+    alignment: center;
+    height: 30px;
+    left:2%;
+    position: relative;
+    /*left: 50%;*/
+}
+
+.sidebar h1 {
+    color: #282828;
+    left:12%;
+    position: relative;
+}
+
+/*@media screen and (max-height: 450px) {*/
+    /*.sidenav {padding-top: 15px;}*/
+    /*.sidenav button {font-size: 18px;}*/
+/*}*/
+
+.main {
+    margin-left: 125px; /* Same as the width of the sidebar */
+    position: absolute;
+    /*padding: 0px 10px;*/
+}
+
+.main p {
+    color: #989898;
+    width: 30%;
+}
+
+.main h1 {
+    color: #a9a9a9;
+    alignment: center;
+}
