@@ -1,4 +1,2 @@
 # ruyl.github.io
 Homepage
-
- 
